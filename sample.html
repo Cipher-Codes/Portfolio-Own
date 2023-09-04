@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfilo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+    <div class="home">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+          
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images5.alphacoders.com/131/1316292.jpeg" alt="Los Angeles" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images5.alphacoders.com/131/1316292.jpeg" alt="Chicago" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images5.alphacoders.com/131/1316292.jpeg" alt="New York" class="d-block w-100">
+              </div>
+            </div>
+          
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+    </div>
+    <style>
+    .back{
+        width: 20%;
+        height: 25%;
+        z-index: -1;
+      }
+    </style>
+    <div id="about">
+      <div class="row">
+        <div class="col-sm">
+          <h1 class="h1 m-5" style="font-family: 'Candara';color: #002d4e;"><b>About</b></h1>
+          <!-- <img class="back" style="z-index: -1;position: absolute;" src="images/nack drop.png" alt=""> -->
+          <div class="top-left">
+          <p class="m-5" style="font-size: 20px;">
+            I'm <b>Jeyesh Vishnu</b>,<br> An enthusiastic web developer with in crafting beautiful and functional websites. I'm passionate about turning ideas into digital reality, solving complex problems, and staying up-to-date with the latest web technologies and design trends. Whether it's coding robust backend systems or perfecting pixel-perfect front-end layouts, I take pride in delivering websites that exceed expectations. When I'm not coding, I enjoy exploring new techniques, attending tech meetups, and embarking on outdoor adventures. Let's collaborate and bring your web projects to life!</p>
+          </div>
+          </div>
+        <div class="col-sm">
+          <center><img src="https://cdni.iconscout.com/illustration/premium/thumb/adobe-illustrator-3359519-2809096.png" class="rounded justify-content-center m-5" alt="Cinque Terre"></center>
+        </div>
+      </div>
+    </div>
+    <div class="projects">
+      <div class="row">
+        <div class="col-sm">
+          <img src="images/medi2.webp" alt="">
+        </div>
+      </div>
+    </div>
+</body>
+</html>
